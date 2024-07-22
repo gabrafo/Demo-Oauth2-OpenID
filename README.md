@@ -2,3 +2,5 @@
 
 ## Sobre
 Esse projeto se trata de uma demonstração, baseada no <a href="https://github.com/giuliana-bezerra/tutorial-spring-auth-server" target="_blank">projeto da Prof. Giuliana Bezerra</a>, de Spring Authorization Server com Oauth 2.0 e OpenID, utilizando o fluxo de autorização "Authorization Code", que se baseia na comunicação direta entre as camadas Authorization Server, Resource Owner e Client.
+
+![image](https://github.com/user-attachments/assets/23035218-77e7-4b42-8b71-fe07424c9fc0)
