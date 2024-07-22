@@ -33,18 +33,18 @@ public class SecurityFilterConfig {
         return http.build();
     }
 
-
     /*
      * Configura a segurança e tela de autenticação redirecionada pelo filtro de
      * autorização.
      */
     @Bean
     @Order(2)
-    SecurityFilterChain defaultSecurityFilterChain(HttpSecurity http) throws Exception {
+    SecurityFilterChain defaultSecurityFilterChain(HttpSecurity http)
+            throws Exception {
         http
-            .authorizeHttpRequests((authorize) -> authorize
-                    .anyRequest().authenticated())
-            .formLogin(withDefaults());
+                .authorizeHttpRequests((authorize) -> authorize
+                        .anyRequest().authenticated())
+                .formLogin(withDefaults());
 
         return http.build();
     }
