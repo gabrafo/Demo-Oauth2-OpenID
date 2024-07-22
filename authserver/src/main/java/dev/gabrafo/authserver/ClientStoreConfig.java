@@ -25,7 +25,7 @@ public class ClientStoreConfig {
                 .authorizationGrantType(AuthorizationGrantType.AUTHORIZATION_CODE)
                 .authorizationGrantType(AuthorizationGrantType.REFRESH_TOKEN)
                 .authorizationGrantType(AuthorizationGrantType.CLIENT_CREDENTIALS)
-                .redirectUri("https://127.0.0.1:8080/login/oauth2/code/client-server") // Por ser local, utilizamos o IP
+                .redirectUri("https://127.0.0.1:8080/login/oauth2/code/client-server-oidc") // Por ser local, utilizamos o IP
                 .scope(OidcScopes.OPENID)
                 .scope(OidcScopes.PROFILE)
                 .clientSettings(ClientSettings.builder().requireAuthorizationConsent(true).build()) // Consentimento do usuário
